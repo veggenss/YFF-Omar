@@ -239,7 +239,7 @@ transition: 1s;
 }
 
 .flexbox p {
-    
+    display: flex;
 }
 .flexbox h1 {
     margin: 5px;
