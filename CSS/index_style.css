@@ -43,7 +43,6 @@ body {
 .menu ul {
     display: flex;
     justify-content: center;
-    list-style: none;
     padding: 0;
     margin: 0;
     gap: 2rem;
@@ -60,6 +59,7 @@ body {
     font-size: 1rem;
     transition: background-color 0.3s ease, transform 0.2s ease;
     border-radius: 5px;
+    width: 80px;
 }
 
 .menu ul li a:hover {
@@ -70,7 +70,7 @@ body {
 /* Dropdown Menu */
 .menu ul li ul.dropdown {
     position: absolute;
-    top: 100%;
+    top: 160%;
     left: 0;
     background: #3498DB; /* Bright Blue */
     list-style: none;
